@@ -1,0 +1,163 @@
+/* Styling for the Pomodoro Todo List */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E74C3C; /* Pomofocus Red Background */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.todo-container {
+    background-color: #C0392B; /* Slightly darker red for container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Timer Styling */
+.pomodoro-timer {
+    background-color: #E74C3C; /* Timer box red */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.pomodoro-timer.break {
+    background-color: #27AE60; /* Green for break time */
+}
+
+.timer-btn {
+    margin: 5px;
+    padding: 12px;
+    background-color: #fff;
+    color: #C0392B;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.timer-btn:hover {
+    background-color: #C0392B;
+    color: #fff;
+}
+
+/* Input Styling */
+.todo-input,
+.pomodoro-input {
+    padding: 10px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.pomodoro-input {
+    margin-bottom: 20px;
+}
+
+/* Add Todo Button */
+.add-todo-btn {
+    background-color: #fff;
+    color: #C0392B;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.add-todo-btn:hover {
+    background-color: #C0392B;
+    color: #fff;
+}
+
+/* Todo List Styling */
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo-item {
+    background-color: #fff;
+    color: #C0392B;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pomodoro-progress {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Delete Button Styling */
+.delete-btn {
+    background-color: #C0392B;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #E74C3C;
+}
+
+/* Analytics Styling */
+.analytics-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.analytics-toggle-btn {
+    background-color: #ff6666;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.analytics-toggle-btn:hover {
+    background-color: #ff4d4d;
+}
+
+/* Analytics Container */
+.analytics-container {
+    background-color: #ff6666;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Chart Styling */
+.chart-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
