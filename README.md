@@ -18,19 +18,19 @@ Here's what the app looks like:
 
 ### Main Dashboard 🖥️
 
-![Dashboard](./images/dashboard)
+![Dashboard](./images/dashboard.png)
 
 ### Settings ⚙️
 
 Customize your Pomodoro sessions and breaks to fit your needs:
 
-![Settings](./images/settings)
+![Settings](./images/settings.png)
 
 ### Analytics 📊
 
 Get a clear overview of your completed Pomodoros with easy-to-read charts:
 
-![Analytics](./images/analytics)
+![Analytics](./images/analytics.png)
 
 ## 🚀 Getting Started
 
