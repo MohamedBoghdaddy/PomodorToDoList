@@ -24,7 +24,7 @@ Here's what the app looks like:
 
 Customize your Pomodoro sessions and breaks to fit your needs:
 
-![Settings](./images/settings.png)
+![Settings](./images/setting.png)
 
 ### Analytics 📊
 
